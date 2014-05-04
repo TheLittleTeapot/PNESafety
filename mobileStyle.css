@@ -1,0 +1,83 @@
+html
+{
+margin-top:20px;
+font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 24px;
+
+background-image:url("images/triangular2.png");
+background-repeat:repeat;
+}
+
+#Main 
+{
+	height: auto;
+    margin: 0 auto;
+	margin-left:2%;
+	margin-right:2%;
+	vertical-align: bottom;
+	display:block;
+}
+
+#PageLeft
+{
+width:100%;
+height:auto;
+margin-right:2%;
+
+}
+
+#PageRight
+{
+width:100%;
+//background-color:yellow;
+}
+
+#DetailsParent
+{
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding:1%;
+	font-size:10pt;
+}
+
+#DetailsParent>p
+{
+	text-align:center;
+	white-space:nowrap;
+	display:inline !important;
+	padding:0;
+	margin:0;
+}
+
+#content
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	background-color:#d7e7fb;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title
+{
+padding-top:12.5px;
+padding-left:12.5px;
+font-size:14pt;
+color:white;
+}
+
+#box1
+{
+background-color:transparent;
+height:200px;
+margin-bottom:5%;
+}
+
+#box2,#box3
+{
+display:none;
+}
